@@ -1,0 +1,27 @@
+{
+  "name": "wing/example",
+  "type": "plus-component",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "wing",
+      "email": "1459416736@qq.com",
+      "homepage": "",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "src/helpers.php"
+    ],
+    "psr-4": {
+      "Wing\\Example\\": "src/"
+    }
+  },
+  "extra": {
+    "installer-class": "Wing\\Example\\Installer\\Installer"
+  },
+  "require": {
+    "zhiyicx/plus-install-plugin": "^1.0"
+  }
+}
